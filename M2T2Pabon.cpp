@@ -23,7 +23,7 @@ int main()
   // greeting the customer
   cout << "Howdy! What's your name? ";
   cin >> user_name;
-  cout << "thanks for stopping by, " << user_name << "!" << endl;
+  cout << "Thanks for stopping by, " << user_name << "!" << endl;
 
   cout << "Welcome to " << farm_name << "apple farm!" << endl; 
   cout << "There are " << num_apples << " apples in stock." << endl;
