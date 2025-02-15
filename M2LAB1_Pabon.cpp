@@ -27,19 +27,28 @@ int main()
     cout << setprecision(2) << fixed << showpoint;
 
     // Acquiring box dimensiont 
-    cout << "Enter the dimensions of the crate (in feet). " endl;
+    cout << "Enter the dimensions of the crate (in feet). " << endl;
     cout << "Length: ";
     cin >> length;
     cout << "Width: ";
     cin >> width;
-    cout << "Height: ":
+    cout << "Height: ";
     cin >> height;
 
     // Computation of the crates volume, cost, price, and profit.
 
+    volume = length * width * height;
+    cost = volume * COST_PER_CUBIC_FOOT;
+    charge = volume * PRICE_PER_CUBIC_FOOT;
+    profit = charge - cost;
     
+    // Display colculated data
 
-
-
+    cout << "The volume of the crate is ";
+    cout << volume << " cubic feet. " << endl;
+    cout << "The cost to build is $" << cost << ". " << endl;
+    cout << "The charge to the customer is $" << charge << ". " <<endl;
+    cout << "The profit from the crate is $" << profit<<  endl; 
+    return 0;
 
 }
