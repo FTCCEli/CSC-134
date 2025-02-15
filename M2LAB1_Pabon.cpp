@@ -46,8 +46,8 @@ int main()
 
     cout << "The volume of the crate is " << volume << " cubic feet. " << endl;
     cout << "The cost to build is $" << cost << ". " << endl;
-    cout << "The charge to the customer is $" << charge << ". " <<endl;
-    cout << "The profit from the crate is $" << profit<<  endl; 
+    cout << "The charge to the customer is $" << charge << ". " << endl;
+    cout << "The profit from the crate is $" << profit<< ". " << endl; 
     return 0;
 
 }
