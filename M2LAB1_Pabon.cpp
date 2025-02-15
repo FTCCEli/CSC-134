@@ -12,7 +12,7 @@ int main()
 {
     // Constants for cost and amount
     const double COST_PER_CUBIC_FOOT = 0.23;
-    const double PRICE_PER_CUBIC_FOOT = 0.5;
+    const double CHARGE_PER_CUBIC_FOOT = 0.5;
 
     // Variables 
     double length,
@@ -26,7 +26,7 @@ int main()
     // Set the desired output formatting for numbers.
     cout << setprecision(2) << fixed << showpoint;
 
-    // Acquiring box dimensiont 
+    // Acquiring crate dimensions
     cout << "Enter the dimensions of the crate (in feet). " << endl;
     cout << "Length: ";
     cin >> length;
@@ -35,17 +35,16 @@ int main()
     cout << "Height: ";
     cin >> height;
 
-    // Computation of the crates volume, cost, price, and profit.
+    // Computation of the crates volume, cost, charge, and profit.
 
     volume = length * width * height;
     cost = volume * COST_PER_CUBIC_FOOT;
-    charge = volume * PRICE_PER_CUBIC_FOOT;
+    charge = volume * CHARGE_PER_CUBIC_FOOT;
     profit = charge - cost;
     
-    // Display colculated data
+    // Display calculated data
 
-    cout << "The volume of the crate is ";
-    cout << volume << " cubic feet. " << endl;
+    cout << "The volume of the crate is " << volume << " cubic feet. " << endl;
     cout << "The cost to build is $" << cost << ". " << endl;
     cout << "The charge to the customer is $" << charge << ". " <<endl;
     cout << "The profit from the crate is $" << profit<<  endl; 
