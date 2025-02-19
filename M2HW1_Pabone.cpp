@@ -10,41 +10,52 @@ using namespace std;
 
 int main() 
 {
+   cout << "Question one" << endl;
 
-cout << "Question one" << endl;
-
-    double balace,
+    double balance,
             name,
             withdraw,
             deposit,
             amount;
 
 
- // Set the desired output formatting for numbers.
- cout << setprecision(2) << fixed << showpoint;
+    // Set the desired output formatting for numbers.
+   cout << setprecision(2) << fixed << showpoint;
 
- cout << "Name: ";
- cin >> name;
- cout << "Starting account balance: ";
- cin >> balace;
+   cout << "Name: ";
+   cin >> name;
+   
+   cout << "Starting account balance: " << endl; 
+   cin >> balance ;
 
- int choice; 
+   int choice; 
 
- cout << "Select from the following options:" << endl;
- cout << "1. Deposit" << endl;
- cout << "2. Withdraw" << endl; 
- cin >> choice;
+   cout << "Select from the following options:" << endl;
+   cout << "1. Deposit" << endl;
+   cout << "2. Withdraw" << endl; 
+   cin >> choice;
 
- switch (choice)
- {
- case 1:
-    cout << "Enter amount: ";
-    cin >> amount;
-    break;
+   switch (choice)
+   {
+      case 1:
+         cout << "Enter amount: ";
+         cin >> amount;
+         balance = balance + amount;
+         cout << "Your new balance is: $" << balance; 
+      break;
+
+      case 2:
+         cout << "Enter amount: ";
+         cin >> withdraw;
+         balance = balance - withdraw;
+         cout << "Your new balance is: $" << balance; 
+      break;
+
  
- default:
-    break;
- }
+      default:
+      break;
+    }
 
+    return 0;
 
 }
