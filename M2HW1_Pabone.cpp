@@ -24,8 +24,8 @@ int main()
 
    cout << "Name: ";
    cin >> name;
-   
-   cout << "Starting account balance: " << endl; 
+   cout << name << " account# 000271828 "<< endl;
+   cout << "Declare account balance: " << endl; 
    cin >> balance ;
 
    int choice; 
@@ -41,14 +41,14 @@ int main()
          cout << "Enter amount: ";
          cin >> amount;
          balance = balance + amount;
-         cout << "Your new balance is: $" << balance; 
+         cout << "Your new balance is: $" << balance << endl; 
       break;
 
       case 2:
          cout << "Enter amount: ";
          cin >> withdraw;
          balance = balance - withdraw;
-         cout << "Your new balance is: $" << balance; 
+         cout << "Your new balance is: $" << balance << endl;
       break;
 
  
