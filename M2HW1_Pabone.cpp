@@ -12,8 +12,8 @@ int main()
 {
    cout << "Question one" << endl;
 
+    string name;
     double balance,
-            name,
             withdraw,
             deposit,
             amount;
@@ -56,6 +56,6 @@ int main()
       break;
     }
 
-    return 0;
+   return 0;
 
 }
