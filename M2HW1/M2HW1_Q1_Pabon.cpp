@@ -1,7 +1,7 @@
-// CSC 134
-// M2HW1
-// Elijah Pabon
-// 2/14/25
+//CSC 134
+//M2HW1 - Gold
+//Elijah Pabon 
+// 02/22/25
 
 #include <iostream>
 #include <iomanip>
