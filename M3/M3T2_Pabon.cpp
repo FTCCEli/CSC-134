@@ -49,7 +49,7 @@ int main()
         cout << "Both rectangles are the same size." << endl;
     }
 
-    cout << "Thanks for using the program." << endl;
+    cout << "Thanks for using this program." << endl;
 
 
 
