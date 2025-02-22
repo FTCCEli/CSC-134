@@ -20,9 +20,9 @@ int main()
 
     // Ask for rectangle inputs
 
-    cout << "Please enter the width and length of rectangle one, seperated by a space or newline" << endl;
+    cout << "Please enter the width and length of rectangle one, seperated by a space or newline:" << endl;
     cin >> widthOne >> lengthOne;
-    cout << "Please enter the width and length of rectangle two, seperated by a space or newline" << endl;
+    cout << "Please enter the width and length of rectangle two, seperated by a space or newline:" << endl;
     cin >> widthTwo >> lengthTwo;
 
     // Area computation
