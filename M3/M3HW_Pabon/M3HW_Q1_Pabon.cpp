@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    cout << "question one"
+    cout << "Question one" << endl;
     string answer;
     cout << "Hey, I'm a C++ chatbot." << endl;
     cout << "Is your refrigerator running? Enter \"yes\" or \"no\"."<< endl;
