@@ -75,23 +75,27 @@ int main()
 
         }
 
-    else if (choice_1 == 2)
+    else if (choice_1 != 1)
         {
             cout << "You wait for the ringing to stop." << endl;
             cout << "It doesn't."<< endl;
             cout << "It gets louder"<< endl;
-            cout << "The tones in the ring start merging together"<< endl;
-            cout << "and destorting."<< endl;
-            cout << "As the noise grows loader you sudenly feel weak."<< endl;
-            cout << "Houses with no windows, some with driveways that don't"<< endl;
-            cout << "Houses with no windows, some with driveways that don't"<< endl;
+            cout << "The tones of the ring start merging together"<< endl;
+            cout << "destorting, oscillating, and pulsing."<< endl;
+            cout << "AS the noise grows loader you sudenly feel weak."<< endl;
+            cout << "You collasps on the floor and use your last bit of "<< endl;
+            cout << "energy to dissconnect the phone from the wall."<< endl;
+            cout << "The sound rings louder than before as one constant"<< endl;
+            cout << "tone."<< endl;
+            cout << "You blink and turn to the phone."<< endl;
+            cout << "It's gone."<< endl;
+            cout << "Everthing is gone."<< endl;
+            cout << "The sound was now coming from the a heart monitor"<< endl;
+            cout << "The white sheets of the hospital bed soak red."<< endl;
+            cout << "The surgical team frantically tries to stop the"<< endl;
+            cout << "bleeding."<< endl;
+            cout << "You close you eyes."<< endl;
             
-        }
-
-    else 
-        {
-            cout << "You reacted too slow." << endl;
-            cout << "Houses with no windows, some with driveways that don't"<< endl;
         }
     
     cout << "Game Over"<< endl;
