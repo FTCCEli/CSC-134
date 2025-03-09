@@ -9,19 +9,19 @@
 using namespace std;
 
 int main() {
-string answer = answer;
+string answer;
     cout << "Hey, I'm a C++ chatbot." << endl;
-    cout << "Is your refrigerator running?" << endl;
+    cout << "Is your refrigerator running? Enter \"yes\" or \"no\"."<< endl;
     cin >> answer;
     if (answer == "yes"){
-        cout << "Then you better go catch it. jajajajaja.";
+        cout << "Then you better go catch it. jajajajaja." << endl;
     }
     else if ( answer == "no"){
-        cout << "Then you should fix it. jajajajaja.";
+        cout << "Then you should fix it. jajajajaja." << endl;
     }
     else { 
-        cout << "invalide entry";
+        cout << "Invalide entry." << endl;
     }
-
+    return 0;
     
 }
