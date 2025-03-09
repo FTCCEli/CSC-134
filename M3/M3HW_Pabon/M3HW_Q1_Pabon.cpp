@@ -9,7 +9,8 @@
 using namespace std;
 
 int main() {
-string answer;
+    cout << "question one"
+    string answer;
     cout << "Hey, I'm a C++ chatbot." << endl;
     cout << "Is your refrigerator running? Enter \"yes\" or \"no\"."<< endl;
     cin >> answer;
