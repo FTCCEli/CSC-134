@@ -10,7 +10,6 @@ using namespace std;
 
 int main() {
     cout << "Question four" << endl;
-    cout << endl;
     srand(time(nullptr));
     int random_number = rand() % 10; // Random number between 1 and 10
     int random_number2 = rand() % 10; // Random number between 1 and 10
