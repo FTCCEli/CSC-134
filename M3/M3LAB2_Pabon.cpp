@@ -22,7 +22,7 @@ int main() {
     else if (grade <= 79.99 && grade > 70){
         cout << "C" << endl;
     }
-    else (grade <= 69.99 && grade > 0){
+    else (grade <= 69.99 && grade > 0);{
         cout << "F" << endl;
     }
     return 0;
