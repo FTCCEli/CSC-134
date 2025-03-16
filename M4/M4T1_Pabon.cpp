@@ -31,5 +31,6 @@ int main()
         cout << n << "\t\t" << (n * n) << endl;
         n++;
     }
+
     return 0;
 }
