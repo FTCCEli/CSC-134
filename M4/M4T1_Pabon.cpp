@@ -23,14 +23,13 @@ int main()
     //Part two
     const int MIN_NUMBER = 1,
               MAX_NUMBER = 10;
-    int n = MIN_NUMBER;
+    n = MIN_NUMBER;
     cout << "Number Number Squared" << endl;
     cout << "---------------------" << endl;
     while (n <= MAX_NUMBER)
     {
-        cout << n << "\t\t" << endl;
+        cout << n << "\t\t" << (n * n) << endl;
+        n++;
     }
-
-
     return 0;
 }
