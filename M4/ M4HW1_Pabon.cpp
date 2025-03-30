@@ -1,5 +1,5 @@
 // CSC 134
-// M4HW1
+// M4HW1 Gold
 // Elijah Pabon
 // 3/29/25
  
@@ -11,14 +11,14 @@ using namespace std;
 int main() 
 {
     int n; // Initializing variables
-    cout << "Enter a number 1 threw 12:"; // Prompt 
+    cout << "Enter a number 1 threw 12:";  // Prompt
     cin >> n;
-    while ( n > 12 || n < 1 || cin.fail()){ 
-        cout << "Enter a number 1 threw 12:"; // Prompt 
+    while ( n > 12 || n < 1 || cin.fail()){ // Input validation 
+        cout << "Enter a number 1 threw 12:"; // Prompt again
         cin >> n;
         cout << endl;}
-    
-    for(int j = 1; j <= 12; j ++){ // Outer loop 
+    // Multiplication table
+    for(int j = 1; j <= 12; j ++){   
         int p = n * j;
         cout << n <<" times " << j << " is " << p << endl;}
 
