@@ -1,7 +1,7 @@
 // CSC 134
-// M4LAB1
+// M4HW1
 // Elijah Pabon
-// 3/25/25
+// 3/29/25
  
 #include <iostream>
 #include <iomanip>
@@ -13,7 +13,7 @@ int main()
     int n; // Initializing variables
     cout << "Enter a number 1 threw 12:"; // Prompt 
     cin >> n;
-    while ( n > 12 || n < 1){ 
+    while ( n > 12 || n < 1 || cin.fail()){ 
         cout << "Enter a number 1 threw 12:"; // Prompt 
         cin >> n;
         cout << endl;}
