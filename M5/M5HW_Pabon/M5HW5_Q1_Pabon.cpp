@@ -9,7 +9,8 @@
 using namespace std;
 int main()
 { 
-    string  month;
+    cout << "Question 1" << endl;
+    string  month, list;
     double inches, average;
     double sum = 0;
     cout << setprecision(2) << fixed << showpoint;
@@ -19,9 +20,10 @@ int main()
         cout << "Enter inches of rain: ";
         cin >> inches;
         sum = sum + inches;
+        list = list + " " + month;
     }
     average = sum/3;
-    cout << "The average amount of rain is: " << average << " inches" << endl;
+    cout << "The average amount of rain for" << list << " was: " << average << " inches" << endl;
     
 
 return 0;
